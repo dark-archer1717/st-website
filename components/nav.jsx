@@ -10,7 +10,6 @@ import {
   ViewGridIcon,
   XIcon,
 } from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
 import Link from 'next/Link'
 
 const solutions = [
@@ -94,13 +93,6 @@ export default function Nav() {
                   )}
                 >
                   <span>About</span>
-                  {/* <ChevronDownIcon
-                    className={classNames(
-                      open ? 'text-gray-600' : 'text-gray-400',
-                      'ml-2 h-5 w-5 group-hover:text-gray-500'
-                    )}
-                    aria-hidden="true"
-                  /> */}
                 </Popover.Button>
 
                 <Transition
@@ -151,11 +143,11 @@ export default function Nav() {
             )}
           </Popover>
 
-          <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+          <a href="#pricing" className="text-base font-medium text-gray-500 hover:text-gray-900">
             Pricing
           </a>
-          <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-            Docs
+          <a href="#features" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            Features
           </a>
 
           <Popover className="relative">
@@ -167,7 +159,7 @@ export default function Nav() {
                     'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                   )}
                 >
-                  <span>Contanct</span>
+                  <span> <a href="#contact">Contact</a></span>
                   {/* <ChevronDownIcon
                     className={classNames(
                       open ? 'text-gray-600' : 'text-gray-400',

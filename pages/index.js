@@ -4,12 +4,10 @@ import Nav from '../components/nav'
 import Feature from '../components/feature'
 import Pricing from '../components/pricing'
 import Footer from '../components/footer'
-import Hero from '../components/hero'
 
 export default function Home() {
   return (
     <div >
-
       <Head>
         <title>Sohag Technology - High Speed Internet</title>
         <meta name="description" content="Leading ISP in Bangladesh" />
@@ -21,7 +19,6 @@ export default function Home() {
         <Nav />
         <Feature />
         <Pricing />
-
       </main>
       <Footer />
 

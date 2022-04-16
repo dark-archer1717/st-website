@@ -51,7 +51,7 @@ const tiers = [
 
 export default function Pricing() {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="pricing">
       <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
         <div className="sm:flex sm:flex-col sm:align-center">
           <h1 className="text-5xl font-extrabold text-gray-900 sm:text-center">Pricing Plans</h1>
@@ -73,7 +73,7 @@ export default function Pricing() {
                 </p>
                 <a
                   href={tier.href}
-                  className="mt-8 block w-full bg-blue-900 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
+                  className="mt-8 block w-full bg-blue-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
                 >
                   Buy {tier.name}
                 </a>

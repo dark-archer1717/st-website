@@ -1,5 +1,5 @@
 import {
-  CloudUploadIcon,
+  HomeIcon,
   CogIcon,
   LockClosedIcon,
   RefreshIcon,
@@ -9,17 +9,18 @@ import {
 
 const features = [
   {
-    name: 'Push to Deploy',
+    name: 'Home Broadband Internet'
+    ,
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: CloudUploadIcon,
+    icon: HomeIcon,
   },
   {
-    name: 'SSL Certificates',
+    name: 'Accessible Technical Support',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple Queues',
+    name: 'Dedicated Server Hosting',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
     icon: RefreshIcon,
   },
@@ -29,20 +30,20 @@ const features = [
     icon: ShieldCheckIcon,
   },
   {
-    name: 'Powerful API',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Dedicated Internet',
+    description: 'Dedicated high-speed internet connectivity with multiple upstream support and multiple backup links to ensure 99.9% uptime.',
     icon: CogIcon,
   },
   {
-    name: 'Database Backups',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Fast FTP Server Support',
+    description: '120 Mbps download speed for FTP servers to ensure user satisfaction.',
     icon: ServerIcon,
   },
 ]
 
 export default function Feature() {
   return (
-    <div className="relative bg-white py-16 sm:py-24 lg:py-32">
+    <div className="relative bg-white py-16 sm:py-24 lg:py-32" id="#features">
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="text-base font-semibold uppercase tracking-wider text-indigo-600"></h2>
         <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
