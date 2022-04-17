@@ -4,6 +4,8 @@ import Nav from '../components/nav'
 import Feature from '../components/feature'
 import Pricing from '../components/pricing'
 import Footer from '../components/footer'
+// import Contact from '../components/contact'
+import Panel from '../components/panel'
 
 export default function Home() {
   return (
@@ -17,9 +19,11 @@ export default function Home() {
       <main className={styles.container}>
         {/* <Hero /> */}
         <Nav />
+        <Panel />
         <Feature />
         <Pricing />
       </main>
+      {/* <Contact />  */}
       <Footer />
 
     </div>
