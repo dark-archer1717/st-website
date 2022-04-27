@@ -34,6 +34,12 @@ export default function contact() {
         </div>
       </div>
     </div>
-
   )
+}
+
+export async function getServerSideProps() {
+
+  res.writeHead(301, {
+    Location: '/'
+  })
 }
