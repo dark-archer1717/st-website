@@ -45,7 +45,7 @@ export default function Feature() {
   return (
     <div className="relative bg-white py-16 sm:py-24 lg:py-32" id="feature">
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 className="text-base font-semibold uppercase tracking-wider text-indigo-600"></h2>
+        <h2 className="text-base font-semibold uppercase tracking-wider text-indigo-600 "></h2>
         <p className="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           Everything you need for your daily need
         </p>
@@ -55,7 +55,7 @@ export default function Feature() {
         <div className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature) => (
-              <div key={feature.name} className="pt-6">
+              <div key={feature.name} className="mt-5 text-lg leading-6 font-medium text-gray-900">
                 <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                   <div className="-mt-6">
                     <div>
