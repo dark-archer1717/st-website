@@ -146,14 +146,14 @@ export default function Nav() {
           <a href="#pricing" className="text-base font-medium text-gray-500 hover:text-gray-900">
             Pricing
           </a>
-          <a href="#feature" className="text-base font-medium text-gray-500 hover:text-gray-900">
+          <a href="#feature" className="text-base font-medium text-gray-500 hover:text-gray-00">
             Features
           </a>
           <a href="#contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
             Contact
           </a>
           <a href="#about" className="text-base font-medium text-gray-500 hover:text-gray-900">
-            About Us
+            About
           </a>
         </Popover.Group>
         <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
