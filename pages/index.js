@@ -19,6 +19,7 @@ export default function Home() {
       <>
         {/* <Hero /> */}
         <Nav />
+
         <Panel />
         <Feature />
         <Pricing />

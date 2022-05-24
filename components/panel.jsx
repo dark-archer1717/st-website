@@ -7,7 +7,7 @@ export default function Panel() {
             <div className="lg:self-center">
               <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
                 <span className="block">Ready to dive in?</span>
-                <span className="block">Start your free trial today.</span>
+                <span className="block">Tap the following button.</span>
               </h2>
               <p className="mt-4 text-lg leading-6 text-indigo-200">
                 Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla
@@ -17,7 +17,7 @@ export default function Panel() {
                 href="#"
                 className="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-indigo-600 hover:bg-indigo-50"
               >
-                Sign up for free
+                Call to Contact
               </a>
             </div>
           </div>
