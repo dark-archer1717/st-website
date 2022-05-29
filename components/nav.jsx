@@ -86,17 +86,16 @@ export default function Nav() {
             </Popover.Button>
           </div>
 
-          <Popover.Group as="nav" className="hidden md:flex space-x-10">
+          <Popover.Group as="nav" className="hidden md:flex space-x-8">
             <Popover className="relative">
               {({ open }) => (
                 <>
                   <Popover.Button
                     className={classNames(
-                      open ? 'text-gray-900' : 'text-gray-500',
-                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      open ? 'text-gray-900' : 'text-gray-500'
                     )}
                   >
-                    <span>Home</span>
+
                   </Popover.Button>
 
                   <Transition
@@ -111,7 +110,7 @@ export default function Nav() {
                     <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                          {solutions.map((solution) => (
+                          {/* {solutions.map((solution) => (
                             <a
                               key={solution.name}
                               href={solution.href}
@@ -125,7 +124,7 @@ export default function Nav() {
                                 <p className="mt-1 text-sm text-gray-500">{solution.description}</p>
                               </div>
                             </a>
-                          ))}
+                          ))} */}
                         </div>
                         <div className="p-5 bg-gray-50 sm:p-8">
                           <a href="#" className="-m-3 p-3 flow-root rounded-md hover:bg-gray-100">
@@ -153,10 +152,10 @@ export default function Nav() {
             <a href="#feature" className="text-base font-medium text-gray-500 hover:text-gray-00">
               Features
             </a>
-            <a href="#contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Contact
             </a>
-            <a href="#about" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="about" className="text-base font-medium text-gray-500 hover:text-gray-900">
               About
             </a>
           </Popover.Group>

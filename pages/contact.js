@@ -1,4 +1,9 @@
-export default function contact() {
+import React, { useState } from "react"
+
+export default function Contact() {
+
+  const [show, setShow] = useState(0)
+
   return (
     <div className="py-4 bg-black text-white" path="/contact">
       <div className="container mx-auto flex flex-col md:flex-row my-12 md:my-36">
@@ -18,7 +23,12 @@ export default function contact() {
             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path
               d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
-          </svg>+91745435433</p> <br />
+          </svg>+8801622925787</p> <br />
+          <p className="font-sans text-sm md:text-lg my-2 md:my-4"><svg className="inline-block fill-current mr-2"
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
+          </svg>+8801911295243</p> <br />
           <p className="font-sans text-sm md:text-lg my-2 md:my-4">Press the chat icon at the right bottom corner to have a
             live chat with our team.
           </p>
@@ -37,9 +47,3 @@ export default function contact() {
   )
 }
 
-export async function getServerSideProps() {
-
-  res.writeHead(301, {
-    Location: '/'
-  })
-}

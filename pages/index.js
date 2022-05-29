@@ -3,7 +3,6 @@ import Nav from '../components/nav'
 import Feature from '../components/feature'
 import Pricing from '../components/pricing'
 import Footer from '../components/footer'
-// import Contact from '../components/contact'
 import Panel from '../components/panel'
 
 export default function Home() {
@@ -19,12 +18,10 @@ export default function Home() {
       <>
         {/* <Hero /> */}
         <Nav />
-
         <Panel />
         <Feature />
         <Pricing />
       </>
-      {/* <Contact />  */}
       <Footer />
 
     </div>
