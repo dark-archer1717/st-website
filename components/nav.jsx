@@ -11,6 +11,8 @@ import {
   XIcon,
 } from '@heroicons/react/outline'
 import Link from 'next/Link'
+import { useRouter } from 'next/router'
+
 
 const solutions = [
   {
@@ -61,6 +63,9 @@ function classNames(...classes) {
 }
 
 export default function Nav() {
+
+  const router = useRouter()
+
   return (
     // <Popover className="relative bg-white">
     <Popover className="z-50 relative bg-white lg:shadow-md">
@@ -152,7 +157,7 @@ export default function Nav() {
             <a href="#feature" className="text-base font-medium text-gray-500 hover:text-gray-00">
               Features
             </a>
-            <a href="contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="contact" onClick={() => router.push('/contact')} className="text-base font-medium text-gray-500 hover:text-gray-900">
               Contact
             </a>
             <a href="about" className="text-base font-medium text-gray-500 hover:text-gray-900">
