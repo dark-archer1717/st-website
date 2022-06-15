@@ -5,6 +5,7 @@ import Pricing from '../components/pricing'
 import Footer from '../components/footer'
 import Panel from '../components/panel'
 
+
 export default function Home() {
   return (
     <div >
@@ -15,7 +16,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <>
-        {/* <Hero /> */}
         <Nav />
         <Panel />
         <Feature />
