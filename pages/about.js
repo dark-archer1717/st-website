@@ -1,5 +1,5 @@
 import React from 'react'
-import About from '../components/about'
+import Bout from '../components/bout'
 import Nav from '../components/nav'
 
 
@@ -7,7 +7,10 @@ import Nav from '../components/nav'
 const About = () => {
 
   return (
-    <About />
+    <>
+      <Nav />
+      <Bout />
+    </>
 
   );
 };
